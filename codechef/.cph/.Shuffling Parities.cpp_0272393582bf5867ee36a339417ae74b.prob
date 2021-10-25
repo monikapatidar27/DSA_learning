@@ -1,0 +1,1 @@
+{"name":"Local: Shuffling Parities","url":"c:\\Users\\pc\\Desktop\\DSA learning\\codechef\\Shuffling Parities.cpp","tests":[{"id":1630994676691,"input":"3\n3\n1 2 3\n3\n2 4 5\n2\n2 4","output":"2\n3\n1"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\pc\\Desktop\\DSA learning\\codechef\\Shuffling Parities.cpp","group":"local","local":true}
