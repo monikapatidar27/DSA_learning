@@ -1,1 +1,0 @@
-{"name":"Local: Travel Pass ","url":"c:\\Users\\pc\\Desktop\\DSA learning\\codechef\\Travel Pass .cpp","tests":[{"id":1630738901580,"input":"3\n2 1 2\n00\n2 1 1\n01\n4 2 1\n1101","output":"2\n2\n5"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\pc\\Desktop\\DSA learning\\codechef\\Travel Pass .cpp","group":"local","local":true}
