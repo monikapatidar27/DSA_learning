@@ -1,0 +1,1 @@
+{"name":"Local: hostel-room","url":"f:\\learning\\DSA_learning\\codechef\\hostel-room.cpp","tests":[{"id":1645164071145,"input":"3\n5 8\n0 3 3 -13 5\n4 5\n0 -2 2 3\n3 5\n-2 5 -2\n","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"f:\\learning\\DSA_learning\\codechef\\hostel-room.cpp","group":"local","local":true}
