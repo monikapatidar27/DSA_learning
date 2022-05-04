@@ -17,17 +17,18 @@ int main(){
     cin>>testcase;
     while(testcase--)
     {
-        int a,b,c;
-        cin>>a>>b>>c;
-        int d=a+c;
-        if(d>b){
-            cout<<d<<endl;
+        int n;
+        cin>>n;
+        int arr[n];
+        loop(i,l,n){
+            cin>>arr[i];
         }
-        
-        else{
-            cout<<b<<endl;
+        int c=0;
+        loop(i,l,n){
+            if(arr[i]==0)
+                c++;
         }
+        cout<<max(c,n-c)<<endl;
     }
     return 0;
 }
-

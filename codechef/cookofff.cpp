@@ -17,17 +17,18 @@ int main(){
     cin>>testcase;
     while(testcase--)
     {
-        int a,b,c;
-        cin>>a>>b>>c;
-        int d=a+c;
-        if(d>b){
-            cout<<d<<endl;
-        }
+        int x,y;
+        cin>>x>>y;
         
+        if(x%2 ==0 and y%2 == 0){
+            cout<<"Janmansh"<<endl;
+        }
+        else if(x%2 == 1 &&y%2 == 1 ){
+             cout<<"Janmansh"<<endl;
+        }
         else{
-            cout<<b<<endl;
+            cout<<"Jay"<<endl;
         }
     }
     return 0;
 }
-

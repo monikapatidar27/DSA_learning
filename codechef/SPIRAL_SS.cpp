@@ -17,17 +17,20 @@ int main(){
     cin>>testcase;
     while(testcase--)
     {
-        int a,b,c;
-        cin>>a>>b>>c;
-        int d=a+c;
-        if(d>b){
-            cout<<d<<endl;
+        int n,m;
+        cin>>n>>m;
+        int arr[n][m];
+        for(int i=0;i<n;i++){
+            for(int j=0;j<m;j++){
+                cin>>arr[i][j];
+            }
         }
-        
-        else{
-            cout<<b<<endl;
+        int lt=0,top=0,rt=n-1,btm=0;
+        while(lt<=rt && top<=btm){
+            for(int i=lt;i<=rt;i++){
+                
+            }
         }
     }
     return 0;
 }
-

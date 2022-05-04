@@ -17,17 +17,18 @@ int main(){
     cin>>testcase;
     while(testcase--)
     {
-        int a,b,c;
-        cin>>a>>b>>c;
-        int d=a+c;
-        if(d>b){
-            cout<<d<<endl;
+        int x;
+        cin>>x;
+        int m=x%3;
+        if(m==1){
+            cout<<"HUGE"<<endl;
         }
-        
+        else if(m==0){
+            cout<<"NORMAL"<<endl;
+        }
         else{
-            cout<<b<<endl;
+            cout<<"SMALL"<<endl;
         }
     }
     return 0;
 }
-

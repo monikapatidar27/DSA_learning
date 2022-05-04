@@ -17,17 +17,20 @@ int main(){
     cin>>testcase;
     while(testcase--)
     {
-        int a,b,c;
-        cin>>a>>b>>c;
-        int d=a+c;
-        if(d>b){
-            cout<<d<<endl;
+        int n,k,e=0;
+        cin>>n>>k;
+        int a[k];
+        for(int i=0;i<k;i++){
+            cin>>a[i];
         }
-        
-        else{
-            cout<<b<<endl;
+        sort(a,a+k);
+        for(int i=0;i<k;i++){
+            for(int j=a[i];j>e;j--){
+                cout<<j<<" ";
+            }
+            e=a[i];
         }
+        cout<<endl;
     }
     return 0;
 }
-

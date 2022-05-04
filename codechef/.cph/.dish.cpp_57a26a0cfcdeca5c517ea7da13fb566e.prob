@@ -1,0 +1,1 @@
+{"name":"Local: dish","url":"f:\\learning\\DSA_learning\\codechef\\dish.cpp","tests":[{"id":1650019858045,"input":"3\n1 2 4 1\n997 817 767 860 \n2\n500 400 1 2\n45 58 56 12\n1000\n500 400 1 2\n45 58 56 12\n10","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"f:\\learning\\DSA_learning\\codechef\\dish.cpp","group":"local","local":true}

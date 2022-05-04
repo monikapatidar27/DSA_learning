@@ -17,17 +17,22 @@ int main(){
     cin>>testcase;
     while(testcase--)
     {
-        int a,b,c;
-        cin>>a>>b>>c;
-        int d=a+c;
-        if(d>b){
-            cout<<d<<endl;
+        int n;
+        cin>>n;
+        string s1,s2;
+        cin>>s1;
+        s2=s1;
+        int c=0;
+        sort(s2.begin(),s2.end());
+        for(int i=0;i<n;i++){
+             if(s1[i]==s2[i] || s2[i] == s1[n-1-i]){
+                c++;
+            }
         }
-        
-        else{
-            cout<<b<<endl;
-        }
+        if(c==n)
+            cout<<"YES"<<endl;
+        else
+            cout<<"NO"<<endl;
     }
     return 0;
 }
-

@@ -17,17 +17,28 @@ int main(){
     cin>>testcase;
     while(testcase--)
     {
-        int a,b,c;
-        cin>>a>>b>>c;
-        int d=a+c;
-        if(d>b){
-            cout<<d<<endl;
+        int x,y;
+        cin>>x>>y;
+        int a,b;
+        if(x>y){
+            cout<<"0 0"<<endl;
         }
-        
+        else if(x==y){
+            cout<<"1"<<" "<<"1"<<endl;
+        }
         else{
-            cout<<b<<endl;
+            if(x%y==0){
+                a=x/y;
+                b=sqrt(a);
+                if()
+                cout<<a<<" "<<b<<endl;
+
+            }
+            else{
+                cout<<"0"<<" "<<"0"<<endl;
+            }
         }
+
     }
     return 0;
 }
-

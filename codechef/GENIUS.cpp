@@ -17,17 +17,27 @@ int main(){
     cin>>testcase;
     while(testcase--)
     {
-        int a,b,c;
-        cin>>a>>b>>c;
-        int d=a+c;
-        if(d>b){
-            cout<<d<<endl;
+        int n,x;
+        cin>>n>>x;
+        int a=x/3;
+        int b=0;
+        if(x%3==1){
+            b=b+2;
         }
-        
+        else if(x%3==2){
+            b=b+1;
+        }
+        if(b!= 0){
+            a++;
+        }
+        if(a+b>n){
+            cout<<"NO"<<endl;
+           
+        }
         else{
-            cout<<b<<endl;
+            cout<<"YES"<<endl;
+            cout<<a<<" "<<b<<" "<<n-a-b<<endl;
         }
     }
     return 0;
 }
-

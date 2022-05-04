@@ -14,20 +14,17 @@ int main(){
     cout.tie(NULL);
 
     int testcase=1;
-    cin>>testcase;
+    //cin>>testcase;
     while(testcase--)
     {
-        int a,b,c;
-        cin>>a>>b>>c;
-        int d=a+c;
-        if(d>b){
-            cout<<d<<endl;
+        int n;
+        cin>>n;
+        if(n%2==0){
+            cout<<"YES"<<endl;
         }
-        
         else{
-            cout<<b<<endl;
+            cout<<"NO"<<endl;
         }
     }
     return 0;
 }
-

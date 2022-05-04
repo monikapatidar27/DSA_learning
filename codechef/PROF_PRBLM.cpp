@@ -14,20 +14,13 @@ int main(){
     cout.tie(NULL);
 
     int testcase=1;
-    cin>>testcase;
+    //cin>>testcase;
     while(testcase--)
     {
-        int a,b,c;
-        cin>>a>>b>>c;
-        int d=a+c;
-        if(d>b){
-            cout<<d<<endl;
-        }
-        
-        else{
-            cout<<b<<endl;
-        }
+       int n;
+       cin>>n;
+       int a=n*((n+1)*(2*n+1)) ;
+       cout<<a/6<<endl;
     }
     return 0;
 }
-

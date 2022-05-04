@@ -17,17 +17,22 @@ int main(){
     cin>>testcase;
     while(testcase--)
     {
-        int a,b,c;
-        cin>>a>>b>>c;
-        int d=a+c;
-        if(d>b){
-            cout<<d<<endl;
-        }
+        int n ,x,k;
+        int c;
+        cin>>n>>x>>k;
         
-        else{
-            cout<<b<<endl;
-        }
+        cout<<min(k/x,n)<<endl;
+        // if(x>k){
+        //      cout<<"0"<<endl;
+
+        // }
+        // c=k/x;
+        // if(c<n){
+        //     cout<<c<<endl;
+        // }
+        // else{
+        //     cout<<n<<endl;
+        // }
     }
     return 0;
 }
-

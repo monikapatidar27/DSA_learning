@@ -17,17 +17,20 @@ int main(){
     cin>>testcase;
     while(testcase--)
     {
-        int a,b,c;
-        cin>>a>>b>>c;
-        int d=a+c;
-        if(d>b){
-            cout<<d<<endl;
+        int x,y,z;
+        cin>>x>>y>>z;
+        if(z%x==0 && z%y==0){
+            cout<<"ANY"<<endl;
         }
-        
+        else if(z%x==0){
+            cout<<"CHICKEN"<<endl;
+        }
+        else if(z%y==0){
+            cout<<"DUCK"<<endl;
+        }
         else{
-            cout<<b<<endl;
+            cout<<"NONE"<<endl;
         }
     }
     return 0;
 }
-

@@ -17,17 +17,24 @@ int main(){
     cin>>testcase;
     while(testcase--)
     {
-        int a,b,c;
-        cin>>a>>b>>c;
-        int d=a+c;
-        if(d>b){
-            cout<<d<<endl;
-        }
         
-        else{
-            cout<<b<<endl;
+        ll n, k;
+        cin >> n >> k;
+        vector<ll> v(n);
+        loop(i, l, n) 
+            cin >> v[i];
+        sort(v.begin(), v.end());
+
+        ll i = 0;
+        ll itm = 0;
+        while(i < n && k >= v[i]){
+       		k -= v[i++];
+       		itm++;
         }
+       
+        if(i < n && ceil(v[i]/2.0) <= k)
+             itm++;
+        cout << itm << endl;
     }
     return 0;
 }
-

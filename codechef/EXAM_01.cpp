@@ -17,17 +17,14 @@ int main(){
     cin>>testcase;
     while(testcase--)
     {
-        int a,b,c;
-        cin>>a>>b>>c;
-        int d=a+c;
-        if(d>b){
-            cout<<d<<endl;
+        int m,n,k;
+        cin>>m>>n>>k;
+        if((n*k)<m){
+            cout<<"YES"<<endl;
         }
-        
         else{
-            cout<<b<<endl;
+            cout<<"NO"<<endl;
         }
     }
     return 0;
 }
-

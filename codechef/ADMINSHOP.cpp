@@ -17,17 +17,29 @@ int main(){
     cin>>testcase;
     while(testcase--)
     {
-        int a,b,c;
-        cin>>a>>b>>c;
-        int d=a+c;
-        if(d>b){
-            cout<<d<<endl;
+        ll n,x;
+        cin>>n>>x;
+        long double arr[n];
+        loop(i,l,n){
+            cin>>arr[i];
+        }
+        // int ig;
+        // cin>>ig;
+        sort(arr,arr+n);
+        
+        double long c=arr[0];
+        ll p=ceil(x/c);
+        if(n==1){
+            cout<<p<<endl;
+        }
+        else if(p>n){
+            cout<<p<<endl;
+        }
+        else{
+            cout<<n<<endl;
         }
         
-        else{
-            cout<<b<<endl;
-        }
+
     }
     return 0;
 }
-

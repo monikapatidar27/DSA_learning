@@ -17,17 +17,16 @@ int main(){
     cin>>testcase;
     while(testcase--)
     {
-        int a,b,c;
-        cin>>a>>b>>c;
-        int d=a+c;
-        if(d>b){
-            cout<<d<<endl;
-        }
-        
-        else{
-            cout<<b<<endl;
-        }
+        int x,a,b,c;
+        cin>>x>>a>>b>>c;
+        int arr[3];
+        arr[0]=a;
+        arr[1]=b;
+        arr[2]=c;
+        sort(arr,arr+3);
+        int res=0;
+        res+=((x-1)*arr[0])+arr[1];
+        cout<<res<<endl;
     }
     return 0;
 }
-

@@ -17,17 +17,23 @@ int main(){
     cin>>testcase;
     while(testcase--)
     {
-        int a,b,c;
-        cin>>a>>b>>c;
-        int d=a+c;
-        if(d>b){
-            cout<<d<<endl;
+        int n;cin>>n;
+        if(n<3){
+            cout<<"-1";
         }
-        
+        else if(n%2==1){
+            for(int i=1;i<=n;i++){
+                cout<<i<<" ";
+            }
+        }
+        // cout<<endl;
         else{
-            cout<<b<<endl;
+            cout<<n-1<<" "<<n-2<<" "<<n<<" ";
+            for(int i=n-3;i>0;i--){
+                cout<<i<<" ";
+            }
         }
+        cout<<endl;
     }
     return 0;
 }
-

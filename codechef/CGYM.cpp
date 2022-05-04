@@ -17,17 +17,17 @@ int main(){
     cin>>testcase;
     while(testcase--)
     {
-        int a,b,c;
-        cin>>a>>b>>c;
-        int d=a+c;
-        if(d>b){
-            cout<<d<<endl;
+        int x,y,z;
+        cin>>x>>y>>z;
+        if(x+y<=z){
+            cout<<2<<endl;
         }
-        
+        else if(x<=z){
+            cout<<1<<endl;
+        }
         else{
-            cout<<b<<endl;
+            cout<<0<<endl;
         }
     }
     return 0;
 }
-

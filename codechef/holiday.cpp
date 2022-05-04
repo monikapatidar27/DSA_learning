@@ -17,17 +17,25 @@ int main(){
     cin>>testcase;
     while(testcase--)
     {
-        int a,b,c;
-        cin>>a>>b>>c;
-        int d=a+c;
-        if(d>b){
-            cout<<d<<endl;
+        int n,w;
+        int sum=0,c=0;
+        cin>>n>>w;
+        int a[n];
+        loop(i,l,n){
+            cin>>a[i];
         }
-        
-        else{
-            cout<<b<<endl;
+        sort(a,a+n);
+        int i=n-1;
+        for(i;i>=0;i--){
+            
+            if(sum>=w)
+                break;
+            else
+                sum+=a[i];
+                c++;
+            
         }
+        cout<<n-c<<endl;
     }
     return 0;
-}
-
+}   

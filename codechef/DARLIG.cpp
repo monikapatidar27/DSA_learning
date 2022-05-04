@@ -17,17 +17,24 @@ int main(){
     cin>>testcase;
     while(testcase--)
     {
-        int a,b,c;
-        cin>>a>>b>>c;
-        int d=a+c;
-        if(d>b){
-            cout<<d<<endl;
+        int n,k;
+        cin>>n>>k;
+        if(n%4==1 || n%4==2 || n%4==3){
+           if(k==1){
+               cout<<"Ambiguous"<<endl;
+           }
+           else{
+               cout<<"ON"<<endl;
+           }
         }
-        
         else{
-            cout<<b<<endl;
+            if(k==0){
+                cout<<"OFF"<<endl;
+            }
+            else{
+                cout<<"ON"<<endl;
+            }
         }
     }
     return 0;
 }
-

@@ -1,1 +1,0 @@
-{"name":"Local: fitdata","url":"f:\\learning\\DSA_learning\\codechef\\fitdata.cpp","tests":[{"id":1644418160704,"input":"5\n15 0\n15 10\n11 12\n27 37\n50 49","output":"0\n10\n0\n9\n49"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"f:\\learning\\DSA_learning\\codechef\\fitdata.cpp","group":"local","local":true}

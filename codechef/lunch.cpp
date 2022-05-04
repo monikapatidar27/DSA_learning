@@ -17,17 +17,17 @@ int main(){
     cin>>testcase;
     while(testcase--)
     {
-        int a,b,c;
-        cin>>a>>b>>c;
-        int d=a+c;
-        if(d>b){
-            cout<<d<<endl;
-        }
-        
-        else{
-            cout<<b<<endl;
-        }
+      int n,c=0;cin>>n;
+      int arr[n];
+      loop(i,l,n){
+          cin>>arr[i];
+      }  
+      loop(i,l,n){
+          if(arr[i]<60&&arr[i]>10){
+              c++;
+          }
+      }
+      cout<<c<<endl;
     }
     return 0;
 }
-

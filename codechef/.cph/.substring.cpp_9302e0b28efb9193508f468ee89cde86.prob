@@ -1,0 +1,1 @@
+{"name":"Local: substring","url":"f:\\learning\\DSA_learning\\codechef\\substring.cpp","tests":[{"id":1647105378025,"input":"2\nabcdab\naaa\n","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"f:\\learning\\DSA_learning\\codechef\\substring.cpp","group":"local","local":true}
