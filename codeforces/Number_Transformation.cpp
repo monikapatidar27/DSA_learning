@@ -17,28 +17,25 @@ int main(){
     cin>>testcase;
     while(testcase--)
     {
-        int x,y;
-        cin>>x>>y;
-        int a,b;
-        if(x>y){
-            cout<<"0 0"<<endl;
-        }
-        else if(x==y){
-            cout<<"1"<<" "<<"1"<<endl;
-        }
-        else{
-            if(x%y==0){
-                a=x/y;
-                b=sqrt(a);
-                if()
-                cout<<a<<" "<<b<<endl;
+        string str;
+        int c=0,d=0,a=0;
+        cin>>str;
+        if(str[0]=='Y'|| str[0]== 'y')c++;
+        if(str[1]=='E'|| str[1]== 'e')c++;
+        if(str[2]=='S'|| str[2]== 's')c++;
 
-            }
-            else{
-                cout<<"0"<<" "<<"0"<<endl;
-            }
-        }
 
+
+
+
+        // for(int i=0;i<3;i++){
+        //     if((str[i] == "Y"|| str[i] == "y") || (str[i]=="e"||str[i]=="E")|| (str[i]=="S" ||str[i]=="s")){
+        //         c++;
+        //     }
+        // }
+        if(c>=3)
+            cout<<"YES"<<endl;
+        else cout<<"NO"<<endl;
     }
     return 0;
 }

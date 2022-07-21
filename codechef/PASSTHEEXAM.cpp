@@ -21,20 +21,19 @@ int main(){
 	cin>>testcase;
 	while(testcase--)
 	{
+		//cout<<"hello";
 		int a,b,c;
-		cin>>a>>b>>c;
-		if(a > b && a > c){
-			cout<<"Alice"<<endl;
-			
-		}
-		else if(b > a && b > c){
-			cout<<"Bob"<<endl;
+		cin>>a>>b>>c;;
+		int total=a+b+c;
+		if(total >= 100 && a >=10 && b >= 10 && c >= 10){
+			cout<<"PASS"<<endl;
 		}
 		else{
-			cout<<"Charlie"<<endl;
+			cout<<"FAIL"<<endl;
 		}
+
+			
 	}
 	
 	return 0;
-	
 }

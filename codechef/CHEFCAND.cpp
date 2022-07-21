@@ -21,20 +21,24 @@ int main(){
 	cin>>testcase;
 	while(testcase--)
 	{
-		int a,b,c;
-		cin>>a>>b>>c;
-		if(a > b && a > c){
-			cout<<"Alice"<<endl;
-			
-		}
-		else if(b > a && b > c){
-			cout<<"Bob"<<endl;
+		int n,x;
+		cin>>n>>x;
+
+		if(n <= x){
+			cout<<"0"<<endl;
 		}
 		else{
-			cout<<"Charlie"<<endl;
+			int sum=n-x;
+			if(sum%4==0){
+				cout<<sum/4<<endl;
+			}
+			else{
+				cout<<(sum/4)+1<<endl;
+			}
 		}
+			
 	}
 	
 	return 0;
-	
+		
 }

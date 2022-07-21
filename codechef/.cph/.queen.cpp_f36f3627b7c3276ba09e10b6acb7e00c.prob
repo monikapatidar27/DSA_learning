@@ -1,0 +1,1 @@
+{"name":"Local: queen","url":"f:\\learning\\DSA_learning\\codechef\\queen.cpp","tests":[{"id":1652031029405,"input":"5\n1 1 1\n3 2 2\n3 2 1\n2 2 2\n150 62 41","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"f:\\learning\\DSA_learning\\codechef\\queen.cpp","group":"local","local":true}

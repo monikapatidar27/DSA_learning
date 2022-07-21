@@ -1,0 +1,1 @@
+{"name":"Local: RATINGINPRAC","url":"f:\\learning\\DSA_learning\\codechef\\RATINGINPRAC.cpp","tests":[{"id":1653636126696,"input":"4\n3\n1 2 3\n3\n1 1 2\n5\n100 200 300 400 350\n5\n1000 2000 5000 3000 1000\n","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"f:\\learning\\DSA_learning\\codechef\\RATINGINPRAC.cpp","group":"local","local":true}
